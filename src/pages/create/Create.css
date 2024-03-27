@@ -1,0 +1,52 @@
+.form_cont{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form h1{
+    margin-bottom: 20px;
+}
+.title{
+    margin-bottom: 20px;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+h4{
+    margin-bottom: 40px;
+}
+textarea{
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+.submit{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.submit, .btn{
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    background-color: blueviolet;
+    transition: all .4s ease;
+}
+.submit:hover, .btn:hover{
+    background-color: rgb(97, 31, 158);
+}
+.ingr{
+    display: flex;
+    gap: 10px;
+}
+.body.night .form{
+    color: white;
+}

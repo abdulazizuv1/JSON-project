@@ -1,0 +1,50 @@
+.boxes{
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.box{
+    padding: 20px;
+    background-color: white;
+    color: #6B6D74;
+    width: 400px;
+    transition: all .4s ease;
+}
+.body.night .box{
+    background-color: black;
+    color: white;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.trash{
+    cursor: pointer;
+    font-size: 20px;
+}
+.box>p{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 30px;
+}
+.box_btn{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: underline;
+    transition: all .4s ease;
+    margin: 0 auto;
+    display: block;
+}
+.box_btn:hover{
+    background-color: #6B6D74;
+}
+.pen{
+    margin-left: 20px;
+    cursor: pointer;
+}
